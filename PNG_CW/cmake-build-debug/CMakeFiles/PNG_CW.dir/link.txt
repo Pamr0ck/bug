@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -lpng  CMakeFiles/PNG_CW.dir/main.cpp.o  -o PNG_CW 

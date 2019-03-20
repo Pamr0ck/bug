@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kot/etu_v2.0/bug/PNG_CW/main.cpp
+unistd.h
+-
+stdlib.h
+-
+stdio.h
+-
+stdarg.h
+-
+iostream
+-
+png.h
+-
+cstring
+-
+zlib.h
+-
+
