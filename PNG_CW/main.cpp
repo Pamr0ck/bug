@@ -29,17 +29,17 @@ void write_png_file(char *file_name, struct Png *image);
 void process_file(struct Png *image);
 
 int main(int argc, char **argv) {
-    /*if (argc != 2){
+    if (argc != 2){
         fprintf(stderr,"Usage: program_name <file_in> <file_out>\n");
         return 0;
-    }*/
+    }
 
     struct Png image={};
-    char sorce[]="/home/kot/etu_v2.0/cpp/rick.png";
-    char dest[]="/home/kot/etu_v2.0/cpp/PNG_CW/test.png";
+    //char sorce[]="/home/kot/etu_v2.0/cpp/rick.png";
+    //char dest[]="/home/kot/etu_v2.0/cpp/PNG_CW/test.png";
     read_png_file(argv[1], &image);
     //process_file(&image);
-    write_png_file(dest, &image);
+    write_png_file(argv[2], &image);
     printf("ok\n");
 
     return 0;
