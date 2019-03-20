@@ -29,7 +29,7 @@ void write_png_file(char *file_name, struct Png *image);
 void process_file(struct Png *image);
 
 int main(int argc, char **argv) {
-    if (argc != 2){
+    if (argc != 3){
         fprintf(stderr,"Usage: program_name <file_in> <file_out>\n");
         return 0;
     }
